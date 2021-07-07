@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles/index.css"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+ <div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="faq.html">FAQ</a>
+  <a class="active" href="commission.html">Commission</a>
+</div> 
+
+<div class="commintro">
+
+<h1>Commission Request</h1>
+
+
+</div>
+
+
+ <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Name">
+
+    <label for="lname">email</label>
+    <input type="text" id="lname" name="lastname" placeholder="user@email.com">
+
+    <label for="country">Drawing Type</label>
+    <select id="country" name="country">
+      <option value="australia">Character Bust</option>
+      <option value="usa">Full Body Character</option>
+      <option value="usa">Multi Character Bust</option>
+      <option value="usa">Multi Character Full Body</option>
+      <option value="usa">Original Character Model Sheet</option>
+    </select>
+
+    <label for="country">Coloring Type</label>
+    <select id="country" name="country">
+      <option value="australia">No Color</option>
+      <option value="canada">Flat Color</option>
+      <option value="usa">Full Render</option>
+    </select>
+
+    <label for="country">Background Type</label>
+    <select id="country" name="country">
+      <option value="australia">No Background</option>
+      <option value="canada">Abstract Background</option>
+      <option value="usa">Detailed Background</option>
+    </select>
+
+    <label for="Description">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Description of request..." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div> 
+
+<!-- Footer -->
+<footer class="footer">
+
+  <!-- Copyright -->
+  <div class="footertext">© 2021 Copyright:
+    <a href="#"> Trevor Holroyd</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
